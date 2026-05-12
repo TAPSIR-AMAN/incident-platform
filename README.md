@@ -91,19 +91,19 @@ npm run dev
 
 PORT=5000
 
-DATABASE_URL=your_database_url
+DATABASE_URL=mysql://root:VYzCXkVnuFCcDXxwoJUhhFfODbBvcghD@yamabiko.proxy.rlwy.net:10161/railway
 
-JWT_SECRET=your_secret
+JWT_SECRET=supersecretkey
 
 ---
 
 # Deployment Links
 
 ## Frontend
-your_frontend_url
+https://incident-platform-1.onrender.com/
 
 ## Backend
-your_backend_url
+https://incident-platform.onrender.com
 
 ---
 
@@ -130,6 +130,7 @@ Incident comments and timestamps preserve activity history.
 
 AI tools used:
 - ChatGPT
+- claude
 
 AI-assisted areas:
 - Architecture guidance
