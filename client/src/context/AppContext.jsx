@@ -14,7 +14,7 @@ export const AppProvider = ({
 }) => {
     // BASE URL
     const baseUrl =
-        "http://localhost:5000/api";
+        "https://incident-platform.onrender.com/api";
 
     // USER STATE
     const [user, setUser] = useState(
