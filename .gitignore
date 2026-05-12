@@ -1,0 +1,39 @@
+# Dependencies
+node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Environment variables
+.env
+
+# Build folders
+dist/
+build/
+
+# Vite
+.vite/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Prisma
+prisma/dev.db
+prisma/dev.db-journal
+
+# IDE
+.vscode/
+.idea/
+
+# Coverage
+coverage/
+
+# Temporary files
+tmp/
+temp/
+
+# Generated files
+*.tsbuildinfo
